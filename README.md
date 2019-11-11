@@ -5,10 +5,10 @@ Rather than showing up to the interview empty-handed, though, I wanted to provid
 
 The EnhancedTextValue class serves as an intermediary between the user input and the display.
 
-- It cleans up potentially dangerous <script> tags, replacing them with <code> tags.
+It cleans up potentially dangerous script tags, replacing them with code tags.
 
-- It removes "onXXX" eventhandler attributes from tags, another potential source of malicious code.
+It removes "onXXX" eventhandler attributes from tags, another potential source of malicious code.
 
-- It converts simple plus/minus calculations into numeric values.
+It converts simple plus/minus calculations into numeric values.
 
-- It stores the original and the final values, so that it can be used in both View and Edit modes.
+It stores the original and the final values, so that it can be used in both View and Edit modes.
