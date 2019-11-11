@@ -1,0 +1,14 @@
+{
+  "name": "enhancedtextvalue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "EnhancedTextValue.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
