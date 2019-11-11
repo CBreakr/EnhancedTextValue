@@ -36,8 +36,8 @@ describe("calculation tests", () => {
 
   test("two additions", () => {
     runTest(
-      "aaaa2+1+3bbb10.1-2.32ddd",
-      "aaaa6bbb7.78ddd"
+      "aaaa2+1+3bbb10.1+1-2.32ddd",
+      "aaaa6bbb8.78ddd"
     );
   });
 
